@@ -37,60 +37,37 @@
   `(#hash((name . "Dark_Tango")
           (colors
            .
-           ((framework:basic-canvas-background
-             ,aluminium6)
-            (framework:default-text-color
-             ,aluminium2)
-            (framework:paren-match-color
-             ,aluminium4)
-            (framework:syntax-color:scheme:comment
-             ,aluminium3)
-            (framework:syntax-color:scheme:constant
-             ,butter_md)
-            (framework:syntax-color:scheme:error
-             ,orange_md)
-            (framework:syntax-color:scheme:hash-colon-keyword
-             ,orange_dk)
-            (framework:syntax-color:scheme:keyword
-             ,orange_md)
-            (framework:syntax-color:scheme:string
-             ,sky_blue_lt)
-            (framework:syntax-color:scheme:other
-             ,scheme_other)
-            (framework:syntax-color:scheme:parenthesis
-             ,aluminium2)
-            (framework:syntax-color:scheme:symbol
-             ,orange_lt)
-            (drracket:read-eval-print-loop:error-color
-             ,scarlet_red_lt)
-            (drracket:read-eval-print-loop:out-color
-             ,chocolate_md)
-            (drracket:read-eval-print-loop:value-color
-             ,sky_blue_lt)
-            (drracket:check-syntax:both-obligation-style-pref
-             ,butter_dk)
-            (drracket:check-syntax:free-variable
-             ,chameleon_lt)
-            (drracket:check-syntax:imported
-             ,chameleon_dk)
-            (drracket:check-syntax:lexically-bound
-             ,sky_blue_lt)
-            (drracket:check-syntax:my-obligation-style-pref
-             ,orange_lt)
-            (drracket:check-syntax:set!d
-             ,chameleon_md)
-            (drracket:check-syntax:their-obligation-style-pref
-             ,orange_md)
-            (drracket:check-syntax:unk-obligation-style-pref
-             ,chocolate_dk)
-            (drracket:check-syntax:unused-require
-             ,orange_dk)
-            (plt:htdp:test-coverage-off
-             ,orange_lt)
-            (plt:htdp:test-coverage-on
-             ,chameleon_lt)
-            (plt:module-language:test-coverage-off
-             ,orange_lt)
-            (plt:module-language:test-coverage-on
-             ,chameleon_lt))))))
+           ((drracket:check-syntax:both-obligation-style-pref ,butter_dk)
+            (drracket:check-syntax:free-variable ,chameleon_lt)
+            (drracket:check-syntax:imported ,chameleon_dk)
+            (drracket:check-syntax:lexically-bound ,sky_blue_lt)
+            (drracket:syncheck:matching-identifiers ,chocolate_lt)
+            (drracket:check-syntax:my-obligation-style-pref ,orange_lt)
+            (drracket:check-syntax:set!d ,chameleon_md)
+            (drracket:check-syntax:their-obligation-style-pref ,orange_md)
+            (drracket:check-syntax:unk-obligation-style-pref ,chocolate_dk)
+            (drracket:check-syntax:unused-require ,orange_dk)
+            (drracket:read-eval-print-loop:error-color ,scarlet_red_lt)
+            (drracket:read-eval-print-loop:out-color ,chocolate_md)
+            (drracket:read-eval-print-loop:value-color ,sky_blue_lt)
+            (framework:basic-canvas-background ,aluminium6)
+            (framework:default-text-color ,aluminium2)
+            (framework:misspelled-text-color ,scarlet_red_lt)
+            (framework:paren-match-color ,aluminium4)
+            (framework:syntax-color:scheme:comment ,aluminium3)
+            (framework:syntax-color:scheme:constant ,butter_md)
+            (framework:syntax-color:scheme:error ,orange_md)
+            (framework:syntax-color:scheme:hash-colon-keyword ,orange_dk)
+            (framework:syntax-color:scheme:keyword ,orange_md)
+            (framework:syntax-color:scheme:other ,scheme_other)
+            (framework:syntax-color:scheme:parenthesis ,aluminium2)
+            (framework:syntax-color:scheme:string ,sky_blue_lt)
+            (framework:syntax-color:scheme:symbol ,orange_lt)
+            (framework:syntax-color:scheme:text ,aluminium2)
+            (plt:htdp:test-coverage-off ,orange_lt)
+            (plt:htdp:test-coverage-on ,chameleon_lt)
+            (plt:module-language:test-coverage-off ,orange_lt)
+            (plt:module-language:test-coverage-on ,chameleon_lt)
+            )))))
+
 
