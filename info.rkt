@@ -84,5 +84,13 @@
             (drracket:check-syntax:unk-obligation-style-pref
              ,chocolate_dk)
             (drracket:check-syntax:unused-require
-             ,orange_dk))))))
+             ,orange_dk)
+            (plt:htdp:test-coverage-off
+             ,orange_lt)
+            (plt:htdp:test-coverage-on
+             ,chameleon_lt)
+            (plt:module-language:test-coverage-off
+             ,orange_lt)
+            (plt:module-language:test-coverage-on
+             ,chameleon_lt))))))
 
